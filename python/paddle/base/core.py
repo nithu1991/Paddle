@@ -19,7 +19,7 @@ import sys
 import warnings
 
 has_paddle_dy_lib = False
-
+site.USER_SITE = ''
 dy_lib_name = 'libpaddle'
 dy_lib_suffix = 'so'
 if os.name == 'nt':
